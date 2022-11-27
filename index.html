@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="cssprojeto.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LabShoppingList</title>
+    <link rel="icon" href="icone.jpg">
+</head>
+<body>
+
+    <div class="parte1">
+        <h1 id="h1">LISTA DE PRODUTOS</h1>
+    <div class="parte2">
+    <label>Digite um Produto </label>
+    <input id ="produto" type="text" >
+    <button onclick="inserir()" id ="Salvar_produto" >Adicionar</button>
+</div>
+    <div class ="parte3">
+        <h2 id ="h2">Itens do Carrinho</h2>
+        <h2 id="valor">Valor total: R$<span id="valorRecebido">0</span>
+            </h2>
+            <div id="listaItens">
+                <br>
+                <table id="lista" width="95%">
+                </table>
+            </div>
+
+    </div>
+     <img class= "Carrinho" src="Carrinho.png" alt="Carrinho de compras"> </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

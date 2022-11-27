@@ -1,0 +1,65 @@
+.parte1{
+    position: absolute;
+    width: 800px;
+    height: 450px;
+    border-radius: 20px;
+background-color: #b9ffff;
+}
+.parte2{
+    position: absolute;
+     top: 80px;
+    left: 80px;
+}
+#h1{
+position: absolute;
+font-size: 40px;
+font-family: fantasy;
+    top:-10px;
+    left: 270px;
+
+}
+#Salvar_produto{
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    color: rgb(10, 10, 10);
+    font-size: 17px;
+}
+#produto{
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+}
+.parte3{
+    position: absolute;
+    top: 140px;
+    width: 300px;
+    height: 280px;
+    left: 270px;
+    border-radius: 20px;
+background-color: #81c9fa;
+}
+#h2{
+    position: absolute;;
+    left: 68px;
+    font-size: 25px;
+
+}
+#lista{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+.Carrinho{
+   position: absolute;
+   top: 170px;
+    left: 10px;
+    width:230px; 
+    height:230px;
+}
+#valor{
+    position: absolute;
+    top: 220px;
+    left: 20px;
+    font-size: 24px;
+}
